@@ -49,7 +49,7 @@
 
 ## 3) Comparing Units (specifically for other properties)
   - `padding`
-    - `%`
+    - `%` 
       - Relative to parent element size (content width) 
     - `em`
       - Relative to parent font size
@@ -66,3 +66,25 @@
     - Functional approach
     - Lifestyle/news focused audience
     - Content first
+
+## 4) Media Queries
+  - `Desktop first` : max-width(1200px), second break point(768px)
+  - `Mobile first` : min-width(768px), second breack point(1200px)
+  - `Common Breakpoints`
+    - `Portratit`
+      - `Smartphone` : 480px
+      - `Tablet` : 768px
+    - `Landscape`
+      - `Notebook` : 1024px
+      - `Desktop` : 1200px
+      - `TV` : >1200px
+
+## 5) Hamburger Icon & Side Drawer
+  - `Hamburger Icon`
+    - `<a>`,`<span>`,`flex-direction`,`space-around`
+  - `Internal links (href="#id")`
+    - Adds defined ID to URL
+    - Jump to "#id" view
+  - `Target selector (#id:target)`
+    - Activates CSS rules if defined ID is selected in URL
+  - `aside` : alternative instead of nav
